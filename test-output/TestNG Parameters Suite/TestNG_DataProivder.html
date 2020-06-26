@@ -1,0 +1,815 @@
+<html>
+<head>
+<title>TestNG:  TestNG_DataProivder</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG_DataProivder</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/10/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 26 01:46:05 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (63 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng_assignment.TestNG_Assertion.TestNG_Assertion_AssertEquals()'><b>TestNG_Assertion_AssertEquals</b><br>Test class: testng_assignment.TestNG_Assertion<br>Test method: AssertEquals<br/>
+<a href="#Output-1828342460" onClick='toggleBox("Output-1828342460", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1828342460" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828342460">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1828342460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1828342460'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Assertion@3891771e</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_Assertion.TestNG_Assertion_assertFalse()'><b>TestNG_Assertion_assertFalse</b><br>Test class: testng_assignment.TestNG_Assertion<br>Test method: assertFalse<br/>
+<a href="#Output-1574740760" onClick='toggleBox("Output-1574740760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574740760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574740760">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574740760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574740760'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Assertion@3891771e</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_Assertion.TestNG_Assertion_assertNotEquals()'><b>TestNG_Assertion_assertNotEquals</b><br>Test class: testng_assignment.TestNG_Assertion<br>Test method: assertNotEquals<br/>
+<a href="#Output-215332339" onClick='toggleBox("Output-215332339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-215332339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-215332339">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace215332339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace215332339'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Assertion@3891771e</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_Assertion.TestNG_Assertion_assertTrue()'><b>TestNG_Assertion_assertTrue</b><br>Test class: testng_assignment.TestNG_Assertion<br>Test method: assertTrue<br/>
+<a href="#Output-1051080526" onClick='toggleBox("Output-1051080526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1051080526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1051080526">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1051080526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1051080526'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Assertion@3891771e</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 1, 1<br/>
+<a href="#Output-541364990" onClick='toggleBox("Output-541364990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-541364990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-541364990">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace541364990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace541364990'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 2, 2<br/>
+<a href="#Output-338751772" onClick='toggleBox("Output-338751772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-338751772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-338751772">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace338751772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace338751772'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 3, 3<br/>
+<a href="#Output-307415928" onClick='toggleBox("Output-307415928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307415928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307415928">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace307415928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace307415928'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 4, 4<br/>
+<a href="#Output-1641902053" onClick='toggleBox("Output-1641902053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1641902053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1641902053">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1641902053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1641902053'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 5, 5<br/>
+<a href="#Output-484320910" onClick='toggleBox("Output-484320910", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-484320910" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-484320910">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484320910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace484320910'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 6, 6<br/>
+<a href="#Output-1766880292" onClick='toggleBox("Output-1766880292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1766880292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1766880292">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1766880292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1766880292'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 7, 7<br/>
+<a href="#Output-392138630" onClick='toggleBox("Output-392138630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-392138630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-392138630">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace392138630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace392138630'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 8, 8<br/>
+<a href="#Output-1570219299" onClick='toggleBox("Output-1570219299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1570219299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1570219299">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1570219299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1570219299'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 9, 9<br/>
+<a href="#Output-232522491" onClick='toggleBox("Output-232522491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232522491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232522491">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace232522491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace232522491'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_DataProivder.TestNG_DataProvider()'><b>TestNG_DataProvider</b><br>Test class: testng_assignment.TestNG_DataProivder<br>Parameters: 10, 10<br/>
+<a href="#Output-980165692" onClick='toggleBox("Output-980165692", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-980165692" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-980165692">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980165692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980165692'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_DataProivder@101952da</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_Parameters.TestNG_Parameter_Test1()'><b>TestNG_Parameter_Test1</b><br>Test class: testng_assignment.TestNG_Parameters<br>Test method: Pass, if the value passed from Test Parameters<br>Parameters: 3, 3<br/>
+<a href="#Output-1408420886" onClick='toggleBox("Output-1408420886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408420886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408420886">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1408420886", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1408420886'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Parameters</td></tr>
+<tr>
+<td title='testng_assignment.TestNG_Parameters.TestNG_Parameter_Test2()'><b>TestNG_Parameter_Test2</b><br>Test class: testng_assignment.TestNG_Parameters<br>Test method: Pass, if the value passed from Test Parameters<br>Parameters: 3, 3<br/>
+<a href="#Output-2122519496" onClick='toggleBox("Output-2122519496", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2122519496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2122519496">
+26-Jun-2020 01:46:05 AM : java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2122519496", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2122519496'><pre>java.lang.NullPointerException
+	at com.maveric.core.testng.listeners.DriverListener.beforeInvocation(DriverListener.java:31)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:574)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testng_assignment.TestNG_Parameters</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1346 @@
+2020-06-20 16:23:35.236 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-20 16:23:35.240 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-20 16:23:35.240 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-20 16:23:36.774 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-20_Jun_2020_04_23_36_PM
+2020-06-20 16:23:36.966 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:23:36.967 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:23:36.967 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:23:36.967 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:23:36.977 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:23:36.977 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:23:36.978 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:23:36.979 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:23:41.254 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:23:41.302 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:23:41.321 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:23:41.321 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:23:41.321 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:23:41.321 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:23:41.322 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:23:41.322 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:23:41.340 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:23:45.374 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:23:45.375 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:24:11.341 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-20 16:24:11.345 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-20 16:24:11.345 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-20 16:24:13.355 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-20_Jun_2020_04_24_13_PM
+2020-06-20 16:24:13.462 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:24:13.464 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:24:13.464 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:24:13.464 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:24:13.476 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:24:13.477 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:24:17.752 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:24:17.783 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:24:17.796 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:24:17.796 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:24:17.796 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:24:17.797 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:24:17.797 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:24:17.797 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:24:17.797 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:24:17.798 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:24:21.825 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:24:21.826 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:52:38.847 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-20 16:52:38.854 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-20 16:52:38.854 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-20 16:52:40.356 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-20_Jun_2020_04_52_40_PM
+2020-06-20 16:52:40.443 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:52:40.445 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:52:40.445 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:52:40.445 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:52:40.456 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:52:40.456 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:52:40.456 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:52:40.457 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:52:40.458 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:52:44.741 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:52:44.769 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:52:44.779 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:52:44.779 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:52:44.779 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:52:44.779 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:52:44.780 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:52:44.781 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:52:48.823 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:52:48.825 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:53:35.906 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-20 16:53:35.910 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-20 16:53:35.910 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-20 16:53:37.523 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-20_Jun_2020_04_53_37_PM
+2020-06-20 16:53:37.591 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:53:37.593 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:53:37.593 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:53:37.593 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:53:37.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:53:37.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:53:37.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:53:37.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:53:37.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:53:41.899 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:53:41.945 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:53:41.958 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:53:41.959 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:53:41.960 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:53:45.994 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:53:45.995 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:54:03.049 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-20 16:54:03.052 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-20 16:54:03.052 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-20 16:54:05.234 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-20_Jun_2020_04_54_05_PM
+2020-06-20 16:54:05.309 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:54:05.311 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:54:05.311 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:54:05.311 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:54:05.323 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:54:05.323 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:54:05.324 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:54:05.325 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:54:05.325 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:54:05.325 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:54:05.325 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:54:09.705 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:54:09.725 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-20 16:54:09.737 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\LENOVO\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-20 16:54:09.738 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-20 16:54:09.739 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-20 16:54:09.739 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-20 16:54:09.739 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-20 16:54:09.739 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-20 16:54:09.739 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-20 16:54:13.758 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-20 16:54:13.758 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 00:44:27.740 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 00:44:27.745 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 00:44:27.745 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 00:44:34.872 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_12_44_34_AM
+2020-06-26 00:44:34.958 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 00:44:34.960 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 00:44:34.960 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 00:44:34.960 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 00:44:34.987 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 00:44:34.987 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 00:44:34.987 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 00:44:34.988 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 00:44:34.989 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 00:44:39.369 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 00:44:39.431 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 00:44:39.449 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 00:44:39.450 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 00:44:39.450 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 00:44:39.450 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 00:44:39.450 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 00:44:39.450 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 00:44:39.451 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 00:44:39.451 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 00:44:39.451 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 00:44:39.452 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 00:44:39.452 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 00:44:39.452 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 00:44:39.452 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 00:44:39.452 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 00:44:39.453 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 00:44:39.453 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 00:44:43.507 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 00:44:43.509 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:01:53.038 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_01_53_AM
+2020-06-26 01:01:53.623 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:01:53.623 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:01:53.624 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:01:54.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:01:54.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:01:54.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:01:54.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:01:54.085 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:01:54.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:01:54.087 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:01:54.087 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:01:54.087 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:01:58.386 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:01:58.411 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:01:58.428 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:01:58.429 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:01:58.430 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:01:58.430 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:01:58.430 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:01:58.430 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:01:58.430 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:01:58.431 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:01:58.431 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:01:58.432 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:01:58.432 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:01:58.432 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:01:58.432 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:01:58.433 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:01:58.433 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:01:58.433 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:02:02.502 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:02:02.506 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:02:02.524 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:02:02.525 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:02:02.526 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:02:02.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:02:02.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:02:02.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:02:02.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:02:02.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:02:02.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:02:02.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:02:02.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:02:02.531 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:02:02.531 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:02:02.531 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:02:02.531 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:02:02.532 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:02:06.600 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:02:06.604 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:02:06.610 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:02:06.611 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:02:06.611 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:02:06.611 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:02:06.611 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:02:06.611 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:02:06.612 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:02:06.613 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:02:06.613 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:02:06.613 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:02:10.676 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:02:10.681 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:25:00.495 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_25_00_AM
+2020-06-26 01:25:01.058 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:25:01.059 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:25:01.059 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:25:01.530 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:01.532 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:25:01.532 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:25:01.532 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:25:01.545 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:25:01.546 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:25:01.546 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:25:01.546 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:25:05.852 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:25:05.875 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:25:05.890 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:05.890 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:25:05.891 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:25:05.891 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:25:05.891 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:25:05.892 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:25:05.892 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:25:05.892 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:05.892 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:25:05.893 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:25:05.893 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:25:05.893 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:25:05.894 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:25:05.894 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:25:05.895 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:25:05.895 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:25:09.953 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:25:09.967 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:25:09.982 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:09.983 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:25:09.984 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:25:09.984 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:25:09.985 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:25:09.986 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:25:09.986 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:25:09.987 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:09.988 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:25:09.988 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:25:09.989 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:25:09.989 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:25:09.990 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:25:09.990 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:25:09.990 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:25:09.991 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:25:14.051 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:25:14.057 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:25:14.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:14.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:25:14.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:25:14.075 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:25:14.076 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:25:14.076 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:25:14.077 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:25:14.078 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:25:14.081 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:25:14.082 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:25:14.083 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:25:14.083 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:25:14.084 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:25:14.085 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:25:14.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:25:14.086 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:25:18.188 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:25:18.192 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:31:07.498 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:31:07.502 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:31:07.502 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:31:08.339 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_31_08_AM
+2020-06-26 01:31:08.523 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:08.525 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:31:08.525 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:31:08.525 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:31:08.537 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:31:08.537 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:31:08.537 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:31:08.537 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:08.537 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:31:08.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:31:12.825 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:31:12.832 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:31:12.840 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:31:12.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:31:16.890 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:31:16.891 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:31:16.907 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:16.907 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:31:16.908 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:31:16.909 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:31:16.909 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:31:16.909 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:31:16.909 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:31:16.911 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:16.911 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:31:16.912 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:31:16.912 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:31:16.912 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:31:16.913 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:31:16.913 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:31:16.914 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:31:16.914 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:31:20.954 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:31:20.954 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:31:20.962 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:20.963 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:31:20.964 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:31:20.965 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:31:25.020 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:31:25.021 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:37:13.524 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_37_13_AM
+2020-06-26 01:37:14.000 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:37:14.001 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:37:14.001 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:37:14.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:14.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:37:14.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:37:14.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:37:14.472 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:37:14.473 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:37:18.797 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:37:18.822 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:37:18.833 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:18.834 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:37:18.834 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:37:18.835 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:37:18.835 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:37:18.835 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:37:18.835 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:37:18.836 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:37:22.893 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:37:22.908 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:37:22.926 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:22.927 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:37:22.927 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:37:22.928 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:37:22.928 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:37:22.929 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:37:22.929 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:37:22.930 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:22.931 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:37:22.931 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:37:22.932 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:37:22.932 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:37:22.932 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:37:22.933 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:37:22.933 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:37:22.933 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:37:27.006 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:37:27.012 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:37:27.032 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:27.033 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:37:27.033 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:37:27.034 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:37:27.034 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:37:27.035 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:37:27.036 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:37:27.036 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:37:27.036 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:37:27.037 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:37:27.037 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:37:27.039 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:37:27.039 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:37:27.040 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:37:27.040 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:37:27.041 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:37:31.115 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:37:31.119 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:39:02.081 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_39_02_AM
+2020-06-26 01:39:02.610 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:39:02.611 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:39:02.611 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:39:03.087 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:03.091 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:39:03.091 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:39:03.092 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:39:03.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:39:03.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:39:03.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:39:03.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:39:03.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:39:03.112 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:39:07.417 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:39:07.440 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:39:07.455 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:07.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:39:07.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:39:07.457 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:39:07.457 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:39:07.457 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:39:07.457 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:39:07.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:07.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:39:07.458 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:39:07.459 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:39:07.459 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:39:07.459 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:39:07.460 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:39:07.460 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:39:07.460 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:39:11.518 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:39:11.531 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:39:11.547 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:11.548 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:39:11.548 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:39:11.549 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:39:11.549 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:39:11.550 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:39:11.550 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:39:11.551 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:11.551 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:39:11.552 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:39:11.553 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:39:11.553 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:39:11.553 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:39:11.554 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:39:11.554 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:39:11.555 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:39:15.611 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:39:15.617 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:39:15.635 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:15.636 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:39:15.637 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:39:15.638 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:39:15.638 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:39:15.639 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:39:15.641 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:39:15.641 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:39:15.641 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:39:15.643 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:39:15.643 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:39:15.643 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:39:15.644 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:39:15.644 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:39:15.645 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:39:15.645 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:39:19.738 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:39:19.742 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:03.464 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_44_03_AM
+2020-06-26 01:44:04.015 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:44:04.015 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:44:04.015 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:44:04.499 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:04.502 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:04.502 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:04.502 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:08.812 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:08.824 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:08.838 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:08.839 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:08.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:08.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:08.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:08.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:08.841 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:08.842 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:08.842 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:08.842 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:08.843 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:08.843 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:08.843 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:08.844 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:08.844 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:08.844 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:12.914 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:12.916 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:12.921 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:12.922 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:12.922 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:12.923 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:16.976 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:16.979 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:16.993 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:16.994 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:16.994 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:16.994 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:16.994 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:16.995 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:16.996 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:16.996 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:16.997 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:16.997 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:16.998 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:16.998 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:16.998 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:16.999 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:16.999 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:16.999 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:21.091 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:21.095 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:21.108 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:21.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:21.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:21.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:21.110 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:21.111 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:21.112 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:21.112 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:21.113 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:21.113 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:21.114 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:21.114 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:21.114 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:21.114 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:21.115 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:21.115 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:25.183 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:25.188 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:25.201 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:25.202 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:25.204 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:25.204 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:25.204 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:25.205 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:25.205 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:25.205 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:25.206 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:25.206 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:25.207 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:25.208 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:25.208 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:25.208 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:25.209 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:25.209 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:29.285 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:29.289 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:29.301 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:29.303 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:29.304 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:29.304 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:29.305 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:29.305 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:29.306 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:29.306 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:29.307 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:29.307 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:29.308 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:33.362 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:33.365 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:33.382 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:33.383 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:33.383 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:33.383 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:33.384 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:33.384 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:33.384 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:33.384 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:33.384 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:33.385 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:33.385 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:33.386 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:33.386 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:33.386 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:33.387 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:33.387 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:37.445 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:37.448 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:37.461 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:37.461 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:37.462 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:37.462 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:37.462 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:37.463 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:37.463 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:37.463 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:37.463 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:37.464 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:37.464 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:37.464 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:37.464 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:37.465 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:37.465 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:37.465 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:41.521 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:41.525 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:44:41.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:41.538 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:44:41.539 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:44:41.539 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:44:41.540 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:44:41.540 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:44:41.540 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:44:41.541 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:44:41.541 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:44:41.541 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:44:41.542 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:44:41.542 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:44:41.542 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:44:41.543 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:44:41.543 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:44:41.543 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:44:45.605 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:44:45.608 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:04.287 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_46_04_AM
+2020-06-26 01:46:05.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:46:05.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:46:05.249 [TestNG-test=TestNG_Parameters-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.261 [TestNG-test=TestNG_Parameters-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.398 [TestNG-test=TestNG_Assertion-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.404 [TestNG-test=TestNG_Assertion-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.408 [TestNG-test=TestNG_Assertion-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.413 [TestNG-test=TestNG_Assertion-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.470 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.476 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.480 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.484 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.490 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.496 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.503 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.509 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.513 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.520 [TestNG-test=TestNG_DataProivder-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.613 [TestNG-test=TestNG_Group-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.617 [TestNG-test=TestNG_Group-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:46:05.622 [TestNG-test=TestNG_Group-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:55:49.093 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_55_49_AM
+2020-06-26 01:55:49.632 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:55:49.633 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:55:49.633 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:55:50.114 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:50.116 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:55:50.116 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:55:50.116 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:55:50.128 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:55:50.128 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:55:50.129 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:55:50.129 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:50.129 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:55:50.129 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:55:50.129 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:55:50.130 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:55:50.130 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:55:50.130 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:55:50.130 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:55:50.130 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:55:54.445 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:55:54.471 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:55:54.483 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:54.484 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:55:54.484 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:55:54.484 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:55:54.484 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:55:54.485 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:55:54.485 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:55:54.485 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:54.486 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:55:54.486 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:55:54.486 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:55:54.486 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:55:54.487 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:55:54.487 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:55:54.487 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:55:54.487 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:55:58.558 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:55:58.570 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:55:58.586 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:58.587 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:55:58.587 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:55:58.588 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:55:58.588 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:55:58.589 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:55:58.589 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:55:58.590 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:55:58.591 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:55:58.591 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:55:58.592 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:55:58.592 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:55:58.592 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:55:58.592 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:55:58.593 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:55:58.593 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:02.643 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:02.647 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:02.652 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:02.652 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:02.652 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:02.653 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:02.654 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:02.655 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:06.682 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:06.684 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:18.003 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_56_17_AM
+2020-06-26 01:56:18.589 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:56:18.590 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:56:18.590 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:56:19.091 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:19.094 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:19.094 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:19.094 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:19.120 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:19.121 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:19.121 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:19.121 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:19.121 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:19.121 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:19.122 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:19.122 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:19.122 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:19.122 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:19.122 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:19.123 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:23.463 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:23.478 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:23.498 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:23.500 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:23.500 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:23.501 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:23.501 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:23.502 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:23.503 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:23.503 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:23.503 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:23.504 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:23.504 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:23.505 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:23.506 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:23.506 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:23.507 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:23.507 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:27.583 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:27.587 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:27.597 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:27.598 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:27.598 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:27.599 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:27.599 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:27.600 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:27.601 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:27.601 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:27.601 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:27.601 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:27.602 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:27.602 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:27.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:27.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:27.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:27.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:31.652 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:31.655 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:31.668 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:31.669 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:31.669 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:31.669 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:31.670 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:31.670 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:31.671 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:31.671 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:31.672 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:31.673 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:31.673 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:31.674 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:31.674 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:31.675 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:31.675 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:31.676 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:35.759 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:35.764 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:35.780 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:35.782 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:35.782 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:35.783 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:35.783 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:35.783 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:35.784 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:35.784 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:35.784 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:35.785 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:35.785 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:35.785 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:35.786 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:35.786 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:35.787 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:35.787 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:39.847 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:39.851 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:39.863 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:39.864 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:39.865 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:39.865 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:39.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:39.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:39.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:39.867 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:39.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:39.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:39.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:39.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:39.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:39.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:39.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:39.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:43.935 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:43.937 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:43.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:43.943 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:47.987 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:47.990 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:48.004 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:48.005 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:48.005 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:48.005 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:48.005 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:48.005 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:48.006 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:48.006 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:48.006 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:48.006 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:48.007 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:48.007 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:48.007 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:48.007 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:48.007 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:48.008 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:52.063 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:52.065 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:52.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:52.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:52.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:52.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:52.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:52.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:52.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:52.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:52.074 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:52.075 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:52.075 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:56:56.129 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:56:56.133 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:56:56.146 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:56.146 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:56:56.147 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:56:56.147 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:56:56.147 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:56:56.149 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:56:56.149 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:56:56.149 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:56:56.149 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:56:56.149 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:56:56.150 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:56:56.150 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:56:56.151 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:56:56.151 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:56:56.152 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:56:56.152 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 01:57:00.208 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 01:57:00.209 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 01:59:55.102 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_01_59_55_AM
+2020-06-26 01:59:55.617 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 01:59:55.617 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 01:59:55.617 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 01:59:56.139 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:59:56.140 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 01:59:56.140 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 01:59:56.140 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 01:59:56.152 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 01:59:56.152 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 01:59:56.152 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 01:59:56.153 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:00.436 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:00.444 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:00.451 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:00.453 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:00.454 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:00.454 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:00.454 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:00.454 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:00.455 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:00.455 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:00.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:00.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:00.456 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:04.516 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:04.518 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:04.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:04.527 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:04.528 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:04.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:04.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:04.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:04.529 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:04.530 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:04.530 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:04.530 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:04.530 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:08.581 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:08.585 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:08.600 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:08.601 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:08.602 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:08.602 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:08.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:08.603 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:08.604 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:08.605 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:08.605 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:08.606 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:08.606 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:08.607 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:08.607 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:08.607 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:08.608 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:08.609 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:12.695 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:12.699 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:12.711 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:12.711 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:12.712 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:12.712 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:12.712 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:12.712 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:12.713 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:12.713 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:12.713 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:12.714 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:12.714 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:12.714 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:12.715 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:12.715 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:12.715 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:12.716 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:16.779 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:16.783 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:16.793 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:16.793 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:16.794 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:16.794 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:16.795 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:16.795 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:16.795 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:16.795 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:16.796 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:16.796 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:16.796 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:16.797 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:16.797 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:16.797 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:16.797 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:16.798 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:20.855 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:20.860 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:20.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:20.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:20.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:20.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:20.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:20.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:20.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:20.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:20.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:20.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:20.871 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:24.917 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:24.920 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:24.937 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:24.938 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:24.938 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:24.939 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:24.939 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:24.939 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:24.940 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:24.941 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:24.941 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:24.941 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:24.941 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:24.941 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:24.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:24.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:24.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:24.942 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:28.990 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:28.992 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:29.000 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:29.000 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:29.001 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:29.002 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:29.003 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:29.003 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:33.052 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:33.055 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:00:33.068 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:33.069 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:00:33.069 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:00:33.070 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:00:33.070 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:00:33.070 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:00:33.070 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:00:33.071 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:00:33.071 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:00:33.071 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:00:33.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:00:33.072 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:00:33.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:00:33.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:00:33.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:00:33.073 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:00:37.129 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:00:37.133 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:01:51.531 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-06-26 02:01:51.535 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-06-26 02:01:51.535 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-06-26 02:01:52.435 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jun_2020_02_01_52_AM
+2020-06-26 02:01:52.498 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:01:52.499 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:01:52.499 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:01:52.499 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:01:52.511 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:01:52.511 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:01:52.512 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:01:56.827 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:01:56.843 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:01:56.864 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:01:56.865 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:01:56.865 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:01:56.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:01:56.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:01:56.866 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:01:56.867 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:01:56.867 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:01:56.867 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:01:56.867 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:01:56.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:01:56.868 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:01:56.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:01:56.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:01:56.869 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:01:56.870 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:02:00.949 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:02:00.951 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:02:00.966 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:02:00.967 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:02:00.968 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:02:00.968 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:02:00.969 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:02:00.969 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:02:00.970 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:02:00.970 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:02:00.971 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:02:00.971 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:02:00.972 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:02:00.973 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:02:00.973 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:02:00.974 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:02:00.974 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:02:00.974 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:02:05.039 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:02:05.039 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-06-26 02:02:05.046 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.RemoteCapabilities - chromedriver path C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:02:05.047 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - app : D:\NewTAFUpdated\.\src\test\resources\apps\AndroidApp.apk
+2020-06-26 02:02:05.047 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appActivity : com.swaglabsmobileapp.SplashActivity
+2020-06-26 02:02:05.047 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appPackage : com.swaglabsmobileapp
+2020-06-26 02:02:05.048 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - appium:chromeOptions : {w3c=false}
+2020-06-26 02:02:05.048 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - automationName : UiAutomator2
+2020-06-26 02:02:05.048 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - browserName : 
+2020-06-26 02:02:05.048 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - chromedriverExecutableDir : C:\Users\senthiln\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39
+2020-06-26 02:02:05.049 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceName : 
+2020-06-26 02:02:05.049 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - deviceReadyTimeout : 60
+2020-06-26 02:02:05.049 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - noReset : true
+2020-06-26 02:02:05.050 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformName : android
+2020-06-26 02:02:05.050 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - platformVersion : 8.1
+2020-06-26 02:02:05.050 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - resetKeyboard : true
+2020-06-26 02:02:05.050 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - unicodeKeyboard : true
+2020-06-26 02:02:05.051 [TestNG-test=Default test-1] INFO  com.maveric.core.driver.DriverFactory - useNewWDA : false
+2020-06-26 02:02:09.122 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-06-26 02:02:09.124 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed

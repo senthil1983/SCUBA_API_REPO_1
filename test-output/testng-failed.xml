@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="methods">
+  <test thread-count="1" name="Default test(failed)" parallel="methods">
+    <classes>
+      <class name="testng_assignment.TestNG_Assertion">
+        <methods>
+          <include name="TestNG_Assertion_assertFalse"/>
+          <include name="TestNG_Assertion_assertNotEquals"/>
+          <include name="TestNG_Assertion_assertTrue"/>
+        </methods>
+      </class> <!-- testng_assignment.TestNG_Assertion -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestNG Parameters Suite]" parallel="methods">
+  <parameter name="valb" value="4"/>
+  <parameter name="vala" value="2"/>
+  <test thread-count="1" name="TestNG_Parameters(failed)" parallel="methods">
+    <parameter name="val2" value="3"/>
+    <parameter name="val1" value="3"/>
+    <classes>
+      <class name="testng_assignment.TestNG_Parameters">
+        <methods>
+          <include name="TestNG_Parameter_Test1" invocation-numbers="0"/>
+          <include name="TestNG_Parameter_Test2" invocation-numbers="0"/>
+          <include name="TestNG_Parameter_BeforeTest"/>
+        </methods>
+      </class> <!-- testng_assignment.TestNG_Parameters -->
+    </classes>
+  </test> <!-- TestNG_Parameters(failed) -->
+  <test thread-count="1" name="TestNG_Assertion(failed)" parallel="methods">
+    <classes>
+      <class name="testng_assignment.TestNG_Assertion">
+        <methods>
+          <include name="TestNG_Assertion_assertFalse"/>
+          <include name="TestNG_Assertion_AssertEquals"/>
+          <include name="TestNG_Assertion_assertNotEquals"/>
+          <include name="TestNG_Assertion_assertTrue"/>
+        </methods>
+      </class> <!-- testng_assignment.TestNG_Assertion -->
+    </classes>
+  </test> <!-- TestNG_Assertion(failed) -->
+  <test thread-count="1" name="TestNG_DataProivder(failed)" parallel="methods">
+    <classes>
+      <class name="testng_assignment.TestNG_DataProivder">
+        <methods>
+          <include name="startMessage"/>
+          <include name="TestNG_DataProvider" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="endMessage"/>
+        </methods>
+      </class> <!-- testng_assignment.TestNG_DataProivder -->
+    </classes>
+  </test> <!-- TestNG_DataProivder(failed) -->
+  <test thread-count="1" name="TestNG_Group(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="Add"/>
+        <include name="Subtract"/>
+        <include name="Negate"/>
+        <exclude name="Inverse"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng_assignment.TestNG_Groups">
+        <methods>
+          <include name="add_Group"/>
+          <include name="negate_Group"/>
+          <include name="sub_Group"/>
+        </methods>
+      </class> <!-- testng_assignment.TestNG_Groups -->
+    </classes>
+  </test> <!-- TestNG_Group(failed) -->
+</suite> <!-- Failed suite [TestNG Parameters Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Group Suite">
+   <test name="TestNG_Group">
+       <groups>
+	   <run>
+	   <include name="Add"></include>
+	   <include name="Subtract"></include>
+	   <include name="Negate"></include>
+	   <exclude name="Inverse"></exclude>
+	   </run>
+	   </groups>
+      <classes>
+         <class name="testng_assignment.TestNG_Groups"></class>
+      </classes>
+   </test>
+   </suite>

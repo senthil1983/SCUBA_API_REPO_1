@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[-------------- Add group executed successfully----------]]>
+    </line>
+    <line>
+      <![CDATA[-------------- Subtract group executed successfully----------]]>
+    </line>
+    <line>
+      <![CDATA[-------------- Negate group executed successfully----------]]>
+    </line>
+    <line>
+      <![CDATA[-------------- Inverse group excluded successfully----------]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16688" started-at="2020-06-26T02:01:52 IST" finished-at="2020-06-26T02:02:09 IST">
+    <groups>
+      <group name="Add">
+        <method signature="TestNG_Groups.add_Group()[pri:1, instance:testng_assignment.TestNG_Groups@e720b71]" name="add_Group" class="testng_assignment.TestNG_Groups"/>
+      </group> <!-- Add -->
+      <group name="Subtract">
+        <method signature="TestNG_Groups.sub_Group()[pri:2, instance:testng_assignment.TestNG_Groups@e720b71]" name="sub_Group" class="testng_assignment.TestNG_Groups"/>
+      </group> <!-- Subtract -->
+      <group name="Inverse">
+        <method signature="TestNG_Groups.inverse_Group()[pri:4, instance:testng_assignment.TestNG_Groups@e720b71]" name="inverse_Group" class="testng_assignment.TestNG_Groups"/>
+      </group> <!-- Inverse -->
+      <group name="Negate">
+        <method signature="TestNG_Groups.negate_Group()[pri:3, instance:testng_assignment.TestNG_Groups@e720b71]" name="negate_Group" class="testng_assignment.TestNG_Groups"/>
+      </group> <!-- Negate -->
+    </groups>
+    <test name="Default test" duration-ms="16688" started-at="2020-06-26T02:01:52 IST" finished-at="2020-06-26T02:02:09 IST">
+      <class name="testng_assignment.TestNG_Groups">
+        <test-method status="PASS" signature="add_Group()[pri:1, instance:testng_assignment.TestNG_Groups@e720b71]" name="add_Group" duration-ms="4364" started-at="2020-06-26T02:01:52 IST" finished-at="2020-06-26T02:01:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------- Add group executed successfully----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_Group -->
+        <test-method status="PASS" signature="sub_Group()[pri:2, instance:testng_assignment.TestNG_Groups@e720b71]" name="sub_Group" duration-ms="4097" started-at="2020-06-26T02:01:56 IST" finished-at="2020-06-26T02:02:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------- Subtract group executed successfully----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub_Group -->
+        <test-method status="PASS" signature="negate_Group()[pri:3, instance:testng_assignment.TestNG_Groups@e720b71]" name="negate_Group" duration-ms="4080" started-at="2020-06-26T02:02:00 IST" finished-at="2020-06-26T02:02:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------- Negate group executed successfully----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate_Group -->
+        <test-method status="PASS" signature="inverse_Group()[pri:4, instance:testng_assignment.TestNG_Groups@e720b71]" name="inverse_Group" duration-ms="4080" started-at="2020-06-26T02:02:05 IST" finished-at="2020-06-26T02:02:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------- Inverse group excluded successfully----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse_Group -->
+      </class> <!-- testng_assignment.TestNG_Groups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
